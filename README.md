@@ -28,11 +28,17 @@ Note that due to restrictions imposed by the local ethics review board at CRIUGM
 Content
 -------
 
-The repository includes several hundreds of functions, the majority being unrelated to the current project. Here is a list of key functions and associated analytical steps:
+The repository includes several hundreds of functions, the majority being unrelated to the BASC-FIR project. Here is a list of key functions and associated analytical steps:
   * [niak_pipeline_fmri_preprocess](niak-1233/pipeline/niak_pipeline_fmri_preprocess.m): the pipeline to preprocess structural and fMRI datasets. This pipeline is using many other tools in the repository. You can read the on-line documentation on [NITRC](http://www.nitrc.org/plugins/mwiki/index.php/niak:FmriPreprocessing064) for more details on the workflow.
+  * [niak_pipeline_region_growing](basc-714M/pipeline/niak_pipeline_region_growing.m): the region growing pipeline. Note that this is an old, unreleased code, with no recent documentation but for the in-code help. The [recent documenation](http://www.nitrc.org/plugins/mwiki/index.php/niak:RegionGrowing) for NIAK "ammo" should mostly apply though.
   * [niak_brick_fir](basc-714M/bricks/basc/niak_brick_fir.m): estimation of a finite-impulse response based on fMRI time series and a set of event times. 
   * [niak_brick_stability_fir](basc-714M/bricks/basc/niak_brick_stability_fir.m): the boostrap analysis of stable clusters for individual FIR data.
   * [niak_brick_stability_group](basc-714M/bricks/basc/niak_brick_stability_group.m): the boostrap analysis of stable clusters at the group level (based on the average stability matrix across all individuals.
-  * 
-
+  * [niak_brick_stability_maps](basc-714M/bricks/basc/niak_brick_stability_maps.m): generation of stability maps, stability cores and partitions threshold based on stability.
+  * [niak_brick_fdr_fir](basc-714M/bricks/basc/niak_brick_fdr_fir.m): test the significance of average group-level FIR (against zero) for each cluster, as well as the significance of the difference in average FIR between each pair of networks. Tests are non-parametric, bootstrap based. Control for multiple comparisons is implemented through estimation of the false-discovery rate.
+  * [niak_pipeline_stability_fir](basc-714M/pipeline/niak_pipeline_stability_fir.m): the multi-scale (as in different number of clusters), multi-level (as in individual, group, and consensus group) BASC analysis on FIR responses.
+  * [niak_hierarchical_clustering](niak-1233/commands/clustering/niak_hierarchical_clustering.m): the code for hierarchical agglomerative clustering using the Ward's criterion, which is used both for individual BASC, group BASC and consensus group BASC.
+   
+Finally, the repository also includes the scripts that were used to call the pipelines:
+  * To be continued.
 
