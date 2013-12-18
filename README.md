@@ -29,7 +29,10 @@ Content
 -------
 
 The repository includes several hundreds of functions, the majority being unrelated to the current project. Here is a list of key functions and associated analytical steps:
-  * niak_brick_stability_fir: the boostrap analysis of stable clusters for individual FIR data.
-  * To be continued
+  * [niak_pipeline_fmri_preprocess](niak-1233/pipeline/niak_pipeline_fmri_preprocess.m): the pipeline to preprocess structural and fMRI datasets. This pipeline is using many other tools in the repository. You can read the on-line documentation on [NITRC](http://www.nitrc.org/plugins/mwiki/index.php/niak:FmriPreprocessing064) for more details on the workflow.
+  * [niak_brick_fir](basc-714M/bricks/basc/niak_brick_fir.m): estimation of a finite-impulse response based on fMRI time series and a set of event times. 
+  * [niak_brick_stability_fir](basc-714M/bricks/basc/niak_brick_stability_fir.m): the boostrap analysis of stable clusters for individual FIR data.
+  * [niak_brick_stability_group](basc-714M/bricks/basc/niak_brick_stability_group.m): the boostrap analysis of stable clusters at the group level (based on the average stability matrix across all individuals.
+  * 
 
 
