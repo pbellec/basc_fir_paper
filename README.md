@@ -28,7 +28,7 @@ Note that due to restrictions imposed by the local ethics review board at CRIUGM
 Content
 -------
 
-The repository includes several hundreds of functions, the majority being unrelated to the BASC-FIR project. Here is a list of key functions and associated analytical steps:
+The repository includes several hundreds of functions, the majority being unrelated to the BASC-FIR project. All the code (or 99%, the 1% being perl and shell scripts) is written in [Matlab](http://www.mathworks.com/) and also compatible with [Octave](http://www.gnu.org/software/octave/). For those trying to actually run the code, there are a number of dependencies that are covered in the [installation page](http://www.nitrc.org/plugins/mwiki/index.php/niak:Installation) of NIAK. Here is a list of key functions and associated analytical steps, with associated documentation when available (although all codes have in-code help):
   * [niak_pipeline_fmri_preprocess](niak-1233/pipeline/niak_pipeline_fmri_preprocess.m): the pipeline to preprocess structural and fMRI datasets. This pipeline is using many other tools in the repository. You can read the on-line documentation on [NITRC](http://www.nitrc.org/plugins/mwiki/index.php/niak:FmriPreprocessing064) for more details on the workflow.
   * [niak_pipeline_region_growing](basc-714M/pipeline/niak_pipeline_region_growing.m): the region growing pipeline. Note that this is an old, unreleased code, with no recent documentation but for the in-code help. The [recent documenation](http://www.nitrc.org/plugins/mwiki/index.php/niak:RegionGrowing) for NIAK "ammo" should mostly apply though.
   * [niak_brick_fir](basc-714M/bricks/basc/niak_brick_fir.m): estimation of a finite-impulse response based on fMRI time series and a set of event times. 
