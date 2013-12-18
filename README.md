@@ -19,5 +19,18 @@ For all question regarding the paper, please address correspondence to Pierre Or
 
 The method and code are developed by Pierre Bellec. Email: pierre.bellec (at) criugm.qc.ca
 
+Disclaimer
+----------
+
+This is a snapshot of the development librairies of the [SIMEXP laboratory](simexp-lab.org) at the time of production (12/2011) of the results reported in the paper. This code is not meant as a toolbox for public use. It is not documented, and many of the options are non-functional or have not been tested. This is a research-grade code, meant to clarify the details of implementation of the algorithms described in the aforementioned paper. The BASC-FIR method will be made publicly available as part of the [NIAK](code.google.com/p/niak) package for the "boss" release scheduled in 2014.
+
+Note that due to restrictions imposed by the local ethics review board at CRIUGM, it was not possible to publicly release the raw or preprocessed imaging data used in the paper. It will thus not be possible for interested readers to exactly reproduce all published experiments. The authors apologize for the inconvenience, and are actively working on a solution for future publications.
+
+Content
+-------
+
+The repository includes several hundreds of functions, the majority being unrelated to the current project. Here is a list of key functions and associated analytical steps:
+  * niak_brick_stability_fir: the boostrap analysis of stable clusters for individual FIR data.
+  * To be continued
 
 
