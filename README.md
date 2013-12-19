@@ -1,7 +1,7 @@
 basc_fir_paper
 ==============
 
-This git-hub repository is a companion for the following publication:
+This github repository is a companion for the following publication:
 
 _The richness of task-evoked hemodynamic responses defines a pseudo-hierarchy of functionally meaningful brain networks_
 
