@@ -38,6 +38,7 @@ The repository includes several hundreds of functions, the majority being unrela
   * [niak_brick_fdr_fir](basc-714M/bricks/basc/niak_brick_fdr_fir.m): test the significance of average group-level FIR (against zero) for each cluster, as well as the significance of the difference in average FIR between each pair of networks. Tests are non-parametric, bootstrap based. Control for multiple comparisons is implemented through estimation of the false-discovery rate.
   * [niak_pipeline_stability_fir](basc-714M/pipeline/niak_pipeline_stability_fir.m): the multi-scale (as in different number of clusters), multi-level (as in individual, group, and consensus group) BASC analysis on FIR responses.
   * [niak_hierarchical_clustering](niak-1233/commands/clustering/niak_hierarchical_clustering.m): the code for hierarchical agglomerative clustering using the Ward's criterion, which is used both for individual BASC, group BASC and consensus group BASC.
+  * [niak_msteps](basc-714M/commands/clustering/niak_msteps.m): the multiscale stepwise selection (MSTEPS) method to pick up representative numbers of clusters in a multiscale analysis.
    
 Finally, the repository also includes the scripts that were used to call the pipelines:
   * [fir_fmri_preprocess](scripts_analysis/fir_fmri_preprocess.m): the script to preprocess the structural and functional data.
