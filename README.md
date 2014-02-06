@@ -25,6 +25,29 @@ This is a snapshot of the development librairies of the [SIMEXP laboratory](http
 
 Note that due to restrictions imposed by the local ethics review board at CRIUGM, it was not possible to publicly release the raw or preprocessed human imaging data used in the paper. It will thus not be possible for interested readers to exactly reproduce all published experiments. The authors apologize for the inconvenience, and are actively working on a solution for future publications.
 
+License
+----------
+
+The library shared in this repository is an opensource project under an MIT license, reproduced hereafter : 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software. 
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
+THE SOFTWARE. 
+
 Content
 -------
 
